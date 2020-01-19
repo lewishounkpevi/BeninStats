@@ -7,9 +7,14 @@
 # install.packages("devtools")
 # install.packages("usethis")
 
+
+# remotes::install_github("ropenscilabs/travis")
+# remotes::install_github("ropenscilabs/tic")
+
 # Hide this file from build
 usethis::use_build_ignore("devstuff_history.R")
 usethis::use_build_ignore("data-raw")
+
 
 # DESCRIPTION
 
@@ -62,6 +67,8 @@ usethis::use_data(business)
 usethis::use_data(education)
 usethis::use_data(infra)
 
+devtools::document()
+
 # For tests
 usethis::use_testthat()
 usethis::use_test("app")
@@ -91,4 +98,4 @@ usethis::use_coverage()
 
 # Test with rhub
 rhub::check_for_cran()
-
+# devtools::submit_cran()

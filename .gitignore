@@ -1,1 +1,6 @@
 .Rproj.user
+^data-raw$
+rename.R
+*.RData
+collectdata.R
+old_collectdata.R
