@@ -1,2 +1,7 @@
 ^BeninStats\.Rproj$
 ^\.Rproj\.user$
+^devstuff_history\.R$
+^LICENSE\.md$
+^README\.Rmd$
+^CODE_OF_CONDUCT\.md$
+^data-raw$

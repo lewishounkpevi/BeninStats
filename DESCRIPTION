@@ -1,13 +1,10 @@
 Package: BeninStats
-Title: What the Package Does (One Line, Title Case)
+Title: Benin Republic Global Statistics
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+Authors@R: person('Lewis', 'Hounkpevi', email = 'lewis.hounkpevi@gmail.com', role = c('cre', 'aut'))
+Description: Collects different data from different sources for Benin Republic.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/Lorx/BeninStats
+BugReports: https://github.com/Lorx/BeninStats/issues
