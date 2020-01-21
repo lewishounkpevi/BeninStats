@@ -3,25 +3,22 @@
 \docType{data}
 \name{climat2}
 \alias{climat2}
-\title{Arabidopsis QTL data on gravitropism}
+\title{Climatologie au Benin}
 \format{An object of class \code{data.frame} with 204 rows and 32 columns.}
 \source{
-\href{https://phenome.jax.org/projects/Moore1b}{QTL Archive}
+\href{https://benin.opendataforafrica.org/data/#topic=Climatologie}{Climatologie}
 }
 \usage{
 data(climat2)
 }
 \description{
-Data from a QTL experiment on gravitropism in
-Arabidopsis, with data on 162 recombinant inbred lines (Ler x
-Cvi). The outcome is the root tip angle (in degrees) at two-minute
-increments over eight hours.
+Climatologie au Benin
 }
 \examples{
 data(climat2)
 }
 \references{
-Moore et al. (2013) Genetics 195:1077-1086
-(\href{https://www.ncbi.nlm.nih.gov/pubmed/23979570}{PubMed})
+Benin Portail des donnees
+Derniere publication 2017-2018
 }
 \keyword{datasets}

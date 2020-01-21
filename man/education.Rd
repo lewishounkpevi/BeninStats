@@ -3,25 +3,22 @@
 \docType{data}
 \name{education}
 \alias{education}
-\title{Arabidopsis QTL data on gravitropism}
+\title{Benin Education Statistics}
 \format{An object of class \code{data.frame} with 64 rows and 2081 columns.}
 \source{
-\href{https://phenome.jax.org/projects/Moore1b}{QTL Archive}
+\href{https://knoema.com/WBEDS2017Jun/education-statistics?regionId=BJ&accesskey=crhlebc}{Education Statistics}
 }
 \usage{
 data(education)
 }
 \description{
-Data from a QTL experiment on gravitropism in
-Arabidopsis, with data on 162 recombinant inbred lines (Ler x
-Cvi). The outcome is the root tip angle (in degrees) at two-minute
-increments over eight hours.
+Benin Education Statistics
 }
 \examples{
 data(education)
 }
 \references{
-Moore et al. (2013) Genetics 195:1077-1086
-(\href{https://www.ncbi.nlm.nih.gov/pubmed/23979570}{PubMed})
+World Bank (2019) December 2019
+(\href{https://knoema.com/atlas/sources/WB}{World Bank})
 }
 \keyword{datasets}

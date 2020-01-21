@@ -3,25 +3,26 @@
 \docType{data}
 \name{business}
 \alias{business}
-\title{Arabidopsis QTL data on gravitropism}
+\title{Benin Business Environment and Labour related Statisticsm}
 \format{An object of class \code{data.frame} with 27 rows and 132 columns.}
 \source{
-\href{https://phenome.jax.org/projects/Moore1b}{QTL Archive}
+\href{https://knoema.com/JOBS2018OCT/business-environment-and-labour-related-statistics?regionId=BJ&accesskey=lvqipff}{Business}
 }
 \usage{
 data(business)
 }
 \description{
-Data from a QTL experiment on gravitropism in
-Arabidopsis, with data on 162 recombinant inbred lines (Ler x
-Cvi). The outcome is the root tip angle (in degrees) at two-minute
-increments over eight hours.
+Data cited at: The World Bank https://datacatalog.worldbank.org/
+Topic: Jobs Publication: https://datacatalog.worldbank.org/dataset/jobs
+License: http://creativecommons.org/licenses/by/4.0/
+The World Bank Jobs Statistics Over 150 indicators on labor-related topics,
+covering over 200 economies from 1990 to present.
 }
 \examples{
 data(business)
 }
 \references{
-Moore et al. (2013) Genetics 195:1077-1086
-(\href{https://www.ncbi.nlm.nih.gov/pubmed/23979570}{PubMed})
+World Bank (2020) January 2020
+(\href{https://data.worldbank.org/data-catalog/jobs}{World Bank})
 }
 \keyword{datasets}
