@@ -3,25 +3,43 @@
 \docType{data}
 \name{infra}
 \alias{infra}
-\title{Arabidopsis QTL data on gravitropism}
+\title{National Infrastructure Database}
 \format{An object of class \code{data.frame} with 15 rows and 744 columns.}
 \source{
-\href{https://phenome.jax.org/projects/Moore1b}{QTL Archive}
+\href{https://knoema.com/NTLDT2016/national-infrastructure-database?regionId=BJ&accesskey=nmjmgjf}{Infrastructure}
 }
 \usage{
 data(infra)
 }
 \description{
-Data from a QTL experiment on gravitropism in
-Arabidopsis, with data on 162 recombinant inbred lines (Ler x
-Cvi). The outcome is the root tip angle (in degrees) at two-minute
-increments over eight hours.
+The Africa Infrastructure Country Diagnostic (AICD) was an unprecedented knowledge program
+on Africa’s infrastructure that grew out of the pledge by the G8 Summit of 2005 at Gleneagles
+to substantially increase ODA assistance to Africa, particularly to the infrastructure sector,
+and the subsequent formation of the Infrastructure Consortium for Africa (ICA).
+The AICD study was founded on the recognition that sub-Saharan Africa (SSA) suffers from
+a very weak infrastructural base, and that this is a key factor in the SSA region failing
+to realize its full potential for economic growth, international trade, and poverty reduction.
+The study broke new ground, with primary data collection efforts covering network service
+infrastructures (ICT, power, water & sanitation, road transport, rail transport, sea transport,
+and air transport) from 2001 to 2006 in 24 selected African countries. Between them,
+these countries account for 85 percent of the sub-Saharan Africa population, GDP,
+and infrastructure inflows. The countries included in the initial study were: Benin,
+Burkina Faso, Cameroon, Cape Verde, Chad, Côte d’Ivoire, Democratic Republic of Congo,
+Ethiopia, Ghana, Kenya, Lesotho, Madagascar, Malawi, Mozambique, Namibia, Niger, Nigeria,
+Rwanda, South Africa, Senegal, Sudan, Tanzania, Uganda, and Zambia. The study also
+represents an unprecedented effort to collect detailed economic and technical data on African
+infrastructure in relation to the fiscal costs of each of the sectors, future sector investment
+needs, and sector performance indicators. As a result, it has been possible for the first time
+to portray the magnitude of the continent’s infrastructure challenges and to provide detailed
+and substantiated estimates on spending needs, funding gaps, and the potential efficiency dividends
+ to be derived from policy reforms.
 }
 \examples{
 data(infra)
 }
 \references{
-Moore et al. (2013) Genetics 195:1077-1086
-(\href{https://www.ncbi.nlm.nih.gov/pubmed/23979570}{PubMed})
+African Development Bank Group
+Published by source: 01 August 2019
+(\href{http://infrastructureafrica.org/dataquery}{Original source})
 }
 \keyword{datasets}
