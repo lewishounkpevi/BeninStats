@@ -16,10 +16,11 @@ knitr::opts_chunk$set(
 # BeninStats
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/Lorx/BeninStats.svg?branch=dev)](https://travis-ci.org/Lorx/BeninStats)
+[![Travis build status](https://travis-ci.org/Lorx/BeninStats.svg?branch=master)](https://travis-ci.org/Lorx/BeninStats)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
-The goal of BeninStats is to ...
+The goal of BeninStats is to collect different data from different sources for Benin Republic.
 
 ## Installation
 
@@ -46,16 +47,11 @@ library(BeninStats)
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
-```{r cars}
-summary(cars)
+```{r business}
+names(pop_by_age)
 ```
 
 You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
 
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
