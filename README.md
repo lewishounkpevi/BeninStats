@@ -1,4 +1,6 @@
 
+# BeninStats <img src='man/figures/BeninStats.png' align="right" height="139" /></a>
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # BeninStats

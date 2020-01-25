@@ -1,15 +1,30 @@
 
 
- 
 
-hexSticker::sticker("carte_benin.png", package="BeninStats", 
+
+hexSticker::sticker("carte_benin.png",
+                    package="BeninStats",
         p_size=20,
         p_color="#040506",
         s_x=1,
-        s_y=.75,
-        s_width=.6,
-        h_fill="#040506" 
+        s_y=0.75,
+        s_width=0.5,
+        s_height = 1,
+        h_fill="#fffff0" ,
+        asp = 1,
+        dpi = 300
         )
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -38,11 +53,11 @@ pop <- pop_by_age %>%
         select(age, male_population, female_population) %>%
         pivot_longer(cols = c(male_population, female_population),
                      names_to = "genre",
-                     values_to = "nbre") %>% 
-        
+                     values_to = "nbre") %>%
+
         mutate(nbre = if_else(genre == "male_population", -1*nbre, nbre ),
                age = factor(age, levels = age, labels = age)) %>%
-        arrange(genre) 
+        arrange(genre)
 
 
 
@@ -54,17 +69,17 @@ gg <- ggplot(pop, aes(x = age, y = nbre, fill = genre)) +
         scale_y_continuous(labels = paste0(as.character(c(seq(2, 0, -1), seq(1, 2, 1))), "m")) +
         coord_flip()
 
-gg + theme(plot.subtitle = element_text(vjust = 1), 
-           plot.caption = element_text(vjust = 1), 
-           panel.background = element_rect(fill = NA), 
-           plot.background = element_rect(fill = "white", 
+gg + theme(plot.subtitle = element_text(vjust = 1),
+           plot.caption = element_text(vjust = 1),
+           panel.background = element_rect(fill = NA),
+           plot.background = element_rect(fill = "white",
                                           colour = NA, linetype = "dashed"))
 
 
-a <- climat %>% 
-        select(annee, starts_with("temperature")) %>% 
+a <- climat %>%
+        select(annee, starts_with("temperature")) %>%
         mutate(annee = lubridate::year(annee) %>% factor())
-  
+
 
 a %>%
         ggplot() +
@@ -78,25 +93,25 @@ a %>%
 ggplot() +
         geom_line(data = a, aes(x=annee, y = temperature_minimale_natitingou_a, group = 1)
                   , colour = "blue", size = 1.5) +
-        geom_line(data = a,aes(x=annee, y = temperature_maximale_natitingou_a, 
+        geom_line(data = a,aes(x=annee, y = temperature_maximale_natitingou_a,
                                   group = 1), colour = "red", size = 1.5) +
-        
+
         geom_point(data = a, aes(x=annee, y = temperature_minimale_natitingou_a), colour = "#F2C40EEB", size = 2.5) +
         geom_point(data = a, aes(x=annee, y = temperature_maximale_natitingou_a), colour = "blue", size = 2.5) +
         geom_line(data = a, aes(x=annee, y = temperature_minimale_cotonou_a, group = 1)
                   , colour = "blue", size = 1.5) +
-        geom_line(data = a,aes(x=annee, y = temperature_maximale_cotonou_a, 
+        geom_line(data = a,aes(x=annee, y = temperature_maximale_cotonou_a,
                                group = 1), colour = "red", size = 1.5) +
-        
+
         geom_point(data = a, aes(x=annee, y = temperature_minimale_cotonou_a), colour = "#F2C40EEB", size = 2.5) +
         geom_point(data = a, aes(x=annee, y = temperature_maximale_cotonou_a), colour = "blue", size = 2.5) +
         geom_line(data = a, aes(x=annee, y = temperature_minimale_save_a, group = 1)
                   , colour = "blue", size = 1.5) +
-        geom_line(data = a,aes(x=annee, y = temperature_maximale_save_a, 
+        geom_line(data = a,aes(x=annee, y = temperature_maximale_save_a,
                                group = 1), colour = "red", size = 1.5) +
-        
+
         geom_point(data = a, aes(x=annee, y = temperature_minimale_save_a), colour = "#F2C40EEB", size = 2.5) +
-        geom_point(data = a, aes(x=annee, y = temperature_maximale_save_a), colour = "blue", size = 2.5) 
+        geom_point(data = a, aes(x=annee, y = temperature_maximale_save_a), colour = "blue", size = 2.5)
 
 
 
