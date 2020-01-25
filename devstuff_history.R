@@ -14,6 +14,8 @@
 # Hide this file from build
 usethis::use_build_ignore("devstuff_history.R")
 usethis::use_build_ignore("data-raw")
+usethis::use_build_ignore("gitcommand")
+
 
 
 # DESCRIPTION

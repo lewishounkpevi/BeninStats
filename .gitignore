@@ -1,6 +1,7 @@
 .Rproj.user
 ^data-raw$
-rename.R
-*.RData
-collectdata.R
-old_collectdata.R
+^rename.R$
+*.RData$
+^collectdata.R$
+^old_collectdata.R$
+^gitcommand$
