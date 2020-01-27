@@ -41,7 +41,7 @@ after_success:
 
 
 
-library(ggplot2)
+
 library(readr)
 library(dplyr)
 library(tidyr)
@@ -64,16 +64,50 @@ pop <- pop_by_age %>%
 
 
 gg <- ggplot(pop, aes(x = age, y = nbre, fill = genre)) +
-        geom_bar(data = subset(pop, genre == "female_population"), stat = "identity") +
-        geom_bar(data = subset(pop, genre == "male_population"), stat = "identity") +
-        scale_y_continuous(labels = paste0(as.character(c(seq(2, 0, -1), seq(1, 2, 1))), "m")) +
-        coord_flip()
+  geom_bar(data = subset(pop, genre == "female_population"), stat = "identity") +
+  geom_bar(data = subset(pop, genre == "male_population"), stat = "identity") +
+  scale_x_discrete () +
+  scale_y_continuous(breaks = seq(-300000, 300000, 50000),
+                     labels = paste0(as.character(c(seq(300, 0, -50),
+                                                    seq(50, 300, 50))), "k")) +
+  coord_flip() +
+  labs(title = "Benin Pyramid Of Age",
+       x = "Age",
+       y = NULL,
+       subtitle = "year : 2019",
+       caption = "Source : U.S. Census Bureau") +
+  theme(plot.subtitle = element_text(size = 10,
+    face = "bold", colour = "red", vjust = 1),
+    plot.caption = element_text(face = "bold.italic",
+        vjust = 1),
+    axis.ticks.y = element_line(linetype = "blank"),
+    axis.ticks.x = element_line(linetype = "dashed"),
+    axis.title = element_text(size = 12,
+        colour = "chartreuse4"),
+    axis.text.x = element_text(size = 10,
+        face = "bold", vjust = 0),
+    axis.text.y = element_text(size = 8, angle = 0, face = "plain"),
+    plot.title = element_text(size = 15,
+        face = "bold", colour = "chartreuse4",
+        hjust = 0.5),
+    legend.text = element_text(face = "plain"),
+    panel.grid.major = element_line(linetype = "blank", colour = NA,  size = 45),
+    panel.grid.minor = element_line(linetype = "blank", colour = NA,  size = 45),
+    panel.background = element_rect(fill = NA, colour = NA, size = 15))
 
-gg + theme(plot.subtitle = element_text(vjust = 1),
-           plot.caption = element_text(vjust = 1),
-           panel.background = element_rect(fill = NA),
-           plot.background = element_rect(fill = "white",
-                                          colour = NA, linetype = "dashed"))
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 a <- climat %>%

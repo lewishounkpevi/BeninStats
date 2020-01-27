@@ -88,6 +88,7 @@ usethis::use_test("app")
 # Reorder your DESC
 
 usethis::use_tidy_description()
+usethis::use_github_links()
 
 # Vignette
 usethis::use_vignette("prenomsapp")

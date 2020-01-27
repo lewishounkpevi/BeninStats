@@ -1,6 +1,6 @@
 Package: BeninStats
 Title: Benin Republic Global Statistics
-Version: 0.0.0.9000
+Version: 0.1.0.9000
 Authors@R: person(given = 'Lewis', 
                   family ='Hounkpevi',
                   email = 'lewis.hounkpevi@gmail.com', 
