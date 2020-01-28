@@ -4,3 +4,4 @@ rename.R
 *.RData
 collectdata.R
 old_collectdata.R
+.Rhistory
