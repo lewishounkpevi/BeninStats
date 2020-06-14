@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![Travis build
-status](https://travis-ci.org/Lorx/BeninStats.svg?branch=master)](https://travis-ci.org/Lorx/BeninStats)
+status](https://travis-ci.org/lewishounkpevi/BeninStats.svg?branch=master)](https://travis-ci.org/lewishounkpevi/BeninStats)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![License:
@@ -29,7 +29,7 @@ And the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Lorx/BeninStats")
+devtools::install_github("lewishounkpevi/BeninStats")
 ```
 
 ## Example
