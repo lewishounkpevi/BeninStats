@@ -1,0 +1,7 @@
+
+
+
+git checkout dev
+git rebase origin dev
+git pull origin master
+git pull origin dev --allow-unrelated-histories

@@ -1,5 +1,6 @@
 Package: BeninStats
 Title: Benin Republic Global Statistics
+<<<<<<< HEAD
 Version: 0.0.1.9000
 Authors@R: 
     person(given = "Lewis",
@@ -9,6 +10,15 @@ Authors@R:
            comment = c(ORCID = "0000-0001-5111-8568"))
 Description: Collects different data from different sources for
     Benin Republic.
+=======
+Version: 0.1.0.9000
+Authors@R: person(given = 'Lewis', 
+                  family ='Hounkpevi',
+                  email = 'lewis.hounkpevi@gmail.com', 
+                  role = c('cre', 'aut'),
+                  comment = c(ORCID = "0000-0001-5111-8568"))
+Description: Collects different data from different sources for Benin Republic.
+>>>>>>> 307ee40f3215dbb510ed0769ad47ab9dabac4208
 License: MIT + file LICENSE
 URL: https://github.com/Lorx/BeninStats
 BugReports: https://github.com/Lorx/BeninStats/issues

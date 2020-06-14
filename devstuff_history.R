@@ -14,6 +14,8 @@
 # Hide this file from build
 usethis::use_build_ignore("devstuff_history.R")
 usethis::use_build_ignore("data-raw")
+usethis::use_build_ignore("gitcommand")
+
 
 
 # DESCRIPTION
@@ -86,6 +88,7 @@ usethis::use_test("app")
 # Reorder your DESC
 
 usethis::use_tidy_description()
+usethis::use_github_links()
 
 # Vignette
 usethis::use_vignette("prenomsapp")
