@@ -4,7 +4,9 @@
 \name{education}
 \alias{education}
 \title{Benin Education Statistics}
-\format{An object of class \code{data.frame} with 64 rows and 2081 columns.}
+\format{
+An object of class \code{data.frame} with 64 rows and 2081 columns.
+}
 \source{
 \href{https://knoema.com/WBEDS2017Jun/education-statistics?regionId=BJ&accesskey=crhlebc}{Education Statistics}
 }

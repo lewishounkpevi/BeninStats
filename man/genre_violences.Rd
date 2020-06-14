@@ -4,7 +4,9 @@
 \name{genre_violences}
 \alias{genre_violences}
 \title{Arabidopsis QTL data on gravitropism}
-\format{An object of class \code{data.frame} with 8 rows and 24 columns.}
+\format{
+An object of class \code{data.frame} with 8 rows and 24 columns.
+}
 \source{
 \href{https://phenome.jax.org/projects/Moore1b}{QTL Archive}
 }

@@ -4,7 +4,9 @@
 \name{global_gender}
 \alias{global_gender}
 \title{Arabidopsis QTL data on gravitropism}
-\format{An object of class \code{data.frame} with 3 rows and 31 columns.}
+\format{
+An object of class \code{data.frame} with 3 rows and 31 columns.
+}
 \source{
 \href{https://phenome.jax.org/projects/Moore1b}{QTL Archive}
 }

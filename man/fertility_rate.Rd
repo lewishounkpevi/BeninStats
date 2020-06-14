@@ -4,7 +4,9 @@
 \name{fertility_rate}
 \alias{fertility_rate}
 \title{Arabidopsis QTL data on gravitropism}
-\format{An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 40 rows and 11 columns.}
+\format{
+An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 40 rows and 11 columns.
+}
 \source{
 \href{https://phenome.jax.org/projects/Moore1b}{QTL Archive}
 }

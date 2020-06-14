@@ -4,7 +4,9 @@
 \name{pop_by_age}
 \alias{pop_by_age}
 \title{Population by Single Year Age Groups - Custom Region - Benin}
-\format{An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 3640 rows and 9 columns.}
+\format{
+An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 3640 rows and 9 columns.
+}
 \source{
 \href{https://phenome.jax.org/projects/Moore1b}{QTL Archive}
 }

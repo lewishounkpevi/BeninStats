@@ -4,7 +4,9 @@
 \name{infra}
 \alias{infra}
 \title{National Infrastructure Database}
-\format{An object of class \code{data.frame} with 15 rows and 744 columns.}
+\format{
+An object of class \code{data.frame} with 15 rows and 744 columns.
+}
 \source{
 \href{https://knoema.com/NTLDT2016/national-infrastructure-database?regionId=BJ&accesskey=nmjmgjf}{Infrastructure}
 }

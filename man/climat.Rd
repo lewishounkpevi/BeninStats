@@ -4,7 +4,9 @@
 \name{climat}
 \alias{climat}
 \title{Climatologie au Benin}
-\format{An object of class \code{data.frame} with 7 rows and 55 columns.}
+\format{
+An object of class \code{data.frame} with 7 rows and 55 columns.
+}
 \source{
 \href{https://benin.opendataforafrica.org/data/#topic=Climatologie}{Climatologie}
 }

@@ -4,7 +4,9 @@
 \name{business}
 \alias{business}
 \title{Benin Business Environment and Labour related Statisticsm}
-\format{An object of class \code{data.frame} with 27 rows and 132 columns.}
+\format{
+An object of class \code{data.frame} with 27 rows and 132 columns.
+}
 \source{
 \href{https://knoema.com/JOBS2018OCT/business-environment-and-labour-related-statistics?regionId=BJ&accesskey=lvqipff}{Business}
 }
